@@ -11,7 +11,7 @@ To ensure proper functionality, it is recommended to invoke the `inview()` funct
 ```js
 inview({
   triggerElement: ".target", // Selecting elements with 'target' class name
-  setClass: "inview", // Setting class 'inview' if element is in user viewport
+  setClass: "inview", // The 'inview' class is set on the element if it is in the user's viewport.
   once: false, // Define whether the library should remove the set class after the element is hidden again in the user viewport.
 });
 ```
